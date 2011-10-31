@@ -28,7 +28,7 @@ begin
     s.summary = "xss_terminate is a plugin in that makes stripping and sanitizing HTML stupid-simple."
     s.email = "look@recursion.org"
     s.homepage = "http://github.com/look/xss_terminate"
-    s.description = "xss_terminate is a plugin in that makes stripping and sanitizing HTML stupid-simple. Install and forget. And forget about forgetting to h() your output, because you won‘t need to anymore."
+    s.description = "xss_terminate is a plugin in that makes stripping and sanitizing HTML stupid-simple. Install and forget. And forget about forgetting to h() your output, because you won't need to anymore."
     s.authors = ["Luke Francl"]
     s.files =  FileList["[A-Z]*", "{lib,test}/**/*", 'lib/jeweler/templates/.gitignore']
   end
